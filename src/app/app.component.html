@@ -1,6 +1,10 @@
-<h1>Bibliotheek Veluwezoom</h1>
-<app-boek-exemplaar
-  *ngFor="let exemplaar of boeken"
-  [boek]="exemplaar">
+<div class="jumbotron">
+  <h1>Bibliotheek Veluwezoom</h1>
+  <div class="div col-xs-12">
+    <app-boek-exemplaar
+      *ngFor="let exemplaar of boeken"
+      [boek]="exemplaar">
+    </app-boek-exemplaar>
+  </div>
+</div>
 
-</app-boek-exemplaar>
