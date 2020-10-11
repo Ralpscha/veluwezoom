@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'veluwezoom';
+  boeken = [{genre: 'roman', titel: 'Vals licht', auteur: 'Joost Zwagerman'},
+    {genre: 'wetenschappelijk', titel: 'Het huis van de toekomst', auteur: 'Chriet Titulaer'}];
 }

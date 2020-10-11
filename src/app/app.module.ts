@@ -2,14 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { BoekInvoerComponent } from './boek-invoer/boek-invoer.component';
-import { BoekenLijstComponent } from './boeken-lijst/boeken-lijst.component';
+import { BoekinvoerComponent } from './boekinvoer/boekinvoer.component';
+import { BoekExemplaarComponent } from './boek-exemplaar/boek-exemplaar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoekInvoerComponent,
-    BoekenLijstComponent
+    BoekinvoerComponent,
+    BoekExemplaarComponent,
+
   ],
   imports: [
     BrowserModule
