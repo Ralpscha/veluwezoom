@@ -1,1 +1,15 @@
-<p>boekinvoer works!</p>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Nieuwe Materialen</h1>
+    <label>Titel: </label>
+    <input type="text" class="form-control" [(ngModel)]="nieuweTitel">
+    <label>Auteur: </label>
+    <input type="text" class="form-control" [(ngModel)]="nieuweAuteur">
+    <label>Genre: </label>
+    <input type="text" class="form-control" [(ngModel)]="nieuweGenre">
+    <br>
+
+    <button class="btn btn-primary"
+    (click)="onMateriaalToevoegen()">Materiaal Toevoegen</button>
+  </div>
+</div>

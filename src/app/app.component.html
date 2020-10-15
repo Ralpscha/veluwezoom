@@ -1,10 +1,18 @@
 <div class="jumbotron">
   <h1>Bibliotheek Veluwezoom</h1>
-  <div class="div col-xs-12">
-    <app-boek-exemplaar
-      *ngFor="let exemplaar of boeken"
-      [boek]="exemplaar">
-    </app-boek-exemplaar>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-boekinvoer (materiaalToegevoegd)="onMateriaalToegevoegd($event)"></app-boekinvoer>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="div col-xs-12">
+      <app-boek-exemplaar
+        *ngFor="let exemplaar of boeken"
+        [boek]="exemplaar">
+      </app-boek-exemplaar>
+    </div>
   </div>
 </div>
 

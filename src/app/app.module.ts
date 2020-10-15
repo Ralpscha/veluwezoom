@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BoekinvoerComponent } from './boekinvoer/boekinvoer.component';
 import { BoekExemplaarComponent } from './boek-exemplaar/boek-exemplaar.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { BoekExemplaarComponent } from './boek-exemplaar/boek-exemplaar.componen
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
